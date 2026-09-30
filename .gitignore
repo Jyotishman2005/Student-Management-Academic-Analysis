@@ -211,8 +211,47 @@ tempCodeRunnerFile.py
 
 # Marimo
 marimo/_static/
+
 marimo/_lsp/
 __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+# C / C++ build files
+*.exe
+*.out
+*.o
+*.obj
+
+# Build directories
+bin/
+Debug/
+Release/
+
+# Machine Learning
+*.pkl
+*.pickle
+*.joblib
+checkpoints/
+models/
+
+# Generated output
+risk_output.csv
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Private student data
+private_data/
+real_students.csv
