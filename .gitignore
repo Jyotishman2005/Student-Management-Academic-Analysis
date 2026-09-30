@@ -1,46 +1,89 @@
+# ==========================================
 # C / C++ compiled files
+# ==========================================
 *.exe
 *.out
 *.o
 *.obj
 
-# Build directories
+# C / C++ build directories
 bin/
 Debug/
 Release/
 
+# ==========================================
 # Python
+# ==========================================
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+
+# Python virtual environments
 venv/
 .venv/
 env/
+ENV/
+env.bak/
+venv.bak/
 
+# Python build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
 # Machine Learning
+# ==========================================
 *.pkl
 *.pickle
 *.joblib
 models/
 checkpoints/
 
-# Generated output
+# ==========================================
+# Generated / temporary files
+# ==========================================
 risk_output.csv
-
-# Temporary files
 *.tmp
 *.temp
+tempCodeRunnerFile.py
 
-# VS Code
+# ==========================================
+# IDE / Editor
+# ==========================================
 .vscode/
+.idea/
 
+# ==========================================
 # Jupyter
+# ==========================================
 .ipynb_checkpoints/
 
+# ==========================================
+# Python testing / cache
+# ==========================================
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ==========================================
 # OS
+# ==========================================
 Thumbs.db
 Desktop.ini
 .DS_Store
 
+# ==========================================
 # Private student data
+# ==========================================
 private_data/
 real_students.csv
+
+# ==========================================
+# Environment / secrets
+# ==========================================
+.env
+.envrc
