@@ -1,0 +1,46 @@
+# C / C++ compiled files
+*.exe
+*.out
+*.o
+*.obj
+
+# Build directories
+bin/
+Debug/
+Release/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Machine Learning
+*.pkl
+*.pickle
+*.joblib
+models/
+checkpoints/
+
+# Generated output
+risk_output.csv
+
+# Temporary files
+*.tmp
+*.temp
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Private student data
+private_data/
+real_students.csv
